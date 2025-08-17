@@ -15,7 +15,7 @@ import org.springframework.data.cassandra.core.mapping.*;
 public class Author {
 
 
-    @Id @PrimaryKeyColumn(name="auther_id",ordinal=0,type= PrimaryKeyType.PARTITIONED)
+    @Id @PrimaryKeyColumn(name="author_id",ordinal=0,type= PrimaryKeyType.PARTITIONED)
     private String id;
 
     @Column("author_name")
