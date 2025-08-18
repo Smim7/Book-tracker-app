@@ -218,7 +218,7 @@ private void initWorks() {
 
     @PostConstruct
     public void start() {
-        initAuthors();
-        initWorks();
+//        initAuthors();
+//        initWorks();
     }
 }
